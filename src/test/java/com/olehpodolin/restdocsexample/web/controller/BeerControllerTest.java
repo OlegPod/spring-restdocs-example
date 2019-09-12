@@ -22,8 +22,9 @@ import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+
 @WebMvcTest(BeerController.class)
-@ComponentScan(basePackages = "guru.springframework.sfgrestdocsexample.web.mappers")
+@ComponentScan(basePackages = "com.olehpodolin.sfgrestdocsexample.web.mappers")
 class BeerControllerTest {
 
     @Autowired
